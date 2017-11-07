@@ -10,13 +10,13 @@
     <children>
         <BorderPane layoutX="13.0" layoutY="29.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="377.0">
             <bottom>
-                <Button fx:id="button" mnemonicParsing="false" onAction="#handleClick" prefHeight="29.0" prefWidth="117.0" text="Button" BorderPane.alignment="CENTER" />
+                <Button fx:id="button" mnemonicParsing="false" onAction="#handleClick" prefHeight="29.0" prefWidth="117.0" text="Concatenate!" BorderPane.alignment="CENTER" />
             </bottom>
             <left>
-                <TextField fx:id="textfield1" BorderPane.alignment="CENTER" />
+                <TextField fx:id="textfield1" promptText="First part" BorderPane.alignment="CENTER" />
             </left>
             <right>
-                <TextField fx:id="textfield2" nodeOrientation="RIGHT_TO_LEFT" text="Morty" BorderPane.alignment="CENTER" />
+                <TextField fx:id="textfield2" nodeOrientation="RIGHT_TO_LEFT" promptText="Second part" BorderPane.alignment="CENTER" />
             </right>
             <top>
                 <Label fx:id="label" BorderPane.alignment="CENTER" />

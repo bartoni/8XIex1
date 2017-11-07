@@ -11,10 +11,10 @@ public class Controller {
     public Label label;
 
     public void handleClick(ActionEvent actionEvent) {
-        if ((textfield1.getText() == null) || (textfield2.getText() == null))
-            label.setText(textfield1.getText() + " and " + textfield2.getText());
-        else {
+        if (textfield1.getText().equals("") || (textfield2.getText().equals("")))
             label.setText("Error: one of the textfields is empty!");
+        else {
+            label.setText(textfield1.getText() + textfield2.getText());
         }
     }
 }
